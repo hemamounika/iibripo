@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mopt:mopt xmlns:mopt="http://www.ibm.com/websphere/dtx/ui/me/mopt">
+  <mopt:info activeInputCardNumber="0" activeOutputCardNumber="0" currentCardNumber="0" currentMapNumber="1" version="12.0"/>
+  <mopt:composition checksum="185871559">
+    <mopt:mapinfos name="NewMap1" number="1" subMapCount="0"/>
+  </mopt:composition>
+  <mopt:debug/>
+  <mopt:runresults>
+    <mopt:results mapName="NewMap1"/>
+  </mopt:runresults>
+  <mopt:editor>
+    <mopt:expansions cardName="input" isOutput="false" mapName="NewMap1">
+      <mopt:path>39:40</mopt:path>
+      <mopt:path>31:39:40</mopt:path>
+      <mopt:path>38:39:40</mopt:path>
+      <mopt:path>12:40</mopt:path>
+    </mopt:expansions>
+    <mopt:expansions cardName="outcard" isOutput="true" mapName="NewMap1">
+      <mopt:path>LEG_RECON_RECORD Group:outcard</mopt:path>
+      <mopt:path>outcard</mopt:path>
+    </mopt:expansions>
+    <mopt:mapstates name=""/>
+    <mopt:mapstates name="NewMap1">
+      <mopt:cardstates index="0" name="input" number="1" output="false" side="0"/>
+    </mopt:mapstates>
+  </mopt:editor>
+</mopt:mopt>
